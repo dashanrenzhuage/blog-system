@@ -80,11 +80,11 @@ class CategoryController extends CommonController
     {
         $input = Input::except('_token','_method');
         $re = Category::where('cate_id',$cate_id)->update($input);
-        if($re){
+//        if($re){
             return redirect('admin/category');
-        }else{
-            return back()->with('errors','Category information update fail, please try again later!');
-        }
+//        }else{
+//            return back()->with('errors','Category information update fail, please try again later!');
+//        }
     }
 
     //get.admin/category/{category}  Show single category info

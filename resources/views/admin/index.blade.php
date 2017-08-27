@@ -27,8 +27,8 @@
                 <ul class="sub_menu">
                     <li><a href="{{url('admin/category/create')}}" target="main"><i class="fa fa-fw fa-plus-square"></i>Add Category</a></li>
                     <li><a href="{{url('admin/category')}}" target="main"><i class="fa fa-fw fa-list-ul"></i>Category List</a></li>
-                    <li><a href="tab.html" target="main"><i class="fa fa-fw fa-list-alt"></i>Tab Page</a></li>
-                    <li><a href="img.html" target="main"><i class="fa fa-fw fa-image"></i>Picture List</a></li>
+					<li><a href="{{url('admin/article/create')}}" target="main"><i class="fa fa-fw fa-plus-square"></i>Add Article</a></li>
+					<li><a href="{{url('admin/article')}}" target="main"><i class="fa fa-fw fa-list-ul"></i>Article List</a></li>
                 </ul>
             </li>
             <li>
