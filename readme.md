@@ -1,3 +1,5 @@
+This is a blog system by using Laravel PHP framework.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
